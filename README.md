@@ -24,10 +24,10 @@ To build the JavaScript version of your component:
 npm run build
 ```
 
-To watch files and rebuild when the files are modified, run the following command in a separate shell:
+To watch files and rebuild when the files are modified:
 
 ```bash
-npm run build:watch
+npm run dev
 ```
 
 Both the TypeScript compiler and lit-analyzer are configured to be very strict. You may want to change `tsconfig.json` to make them less strict.
